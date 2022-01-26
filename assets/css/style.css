@@ -19,7 +19,7 @@ body {
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #252525;
 }
 
@@ -65,20 +65,20 @@ h1, h2 {
 /* hero image and cover text*/
 
 #hero-outer {
-    height: 100%;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-    color: #fff
-}
-
 #hero-image {
-    height: 800px;
+    height: 700px;
     width: 100%;
-    background: url(../images/pexels-photo-1487713.jpeg) no-repeat;
+    background: url(../images/pexels-photo-1937336.jpeg) no-repeat;
+    opacity: 0.3;
+    position: center;
+    background-size: cover;
+
 
 /* animates zoom effect on loading page */
 
@@ -102,50 +102,38 @@ h1, h2 {
     }
 }
 
-#cover-text {
-    font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: #2d332e;
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
-}
-
 /* club-ethos */
 
 #club-ethos {
-    height: 600px;
+    width: 90%;
+    height: 700px;
+    margin: -690px auto;
 }
 
 #left-about {
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 35px;
+    width: 80%;
     float: left;
     background-color: none;
+    color: black;
+    font-weight: bold;
 }
 
 #right-about {
-    padding-top: 30px;
+    padding-top: 0px;
     width: 33%;
     float: right;
     background-color: none;
+    color: black;
+    font-weight: bold;
 }
 
 #center-about {
     width: 33%;
-    margin: 0 auto;
+    margin: -690 auto;
     background-color: none;
+    color: black;
+    font-weight: bold;
 }
 
 hr {
@@ -155,23 +143,36 @@ hr {
 }
 
 .left-about-heading {
-    width: 60%;
+    width: 100%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    color: black;
+    font-weight: bolder;
 }
 
-.right-about-heading {
-    width: 60%;
-    float: left;
+.left-about-heading2 {
+    width: 100%;
+    float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+.right-about-heading {
+    width: 100%;
+    float: right;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 40px;
 }
 
 .right-about-heading h2 {
     text-align: right;
+    margin-top: 20px;
 }
 
 .right-about-heading h2 {
@@ -179,54 +180,10 @@ hr {
 }
 
 #welcome {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url(../images/ethos-center-image.jpg) no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-/* event times */
-
-#times {
-    background-image: url(../images/dublin-city.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-#times div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;   
-    padding: 30 px 0 0 10px;
-    text-align: center;
-    border: solid;
-    box-sizing: border-box;
-}
-
-#times h2 {
-    color: #fafafa;
-
+    text-align: left;
+    margin: 40px 170px;
+    font-size: 180%;
+    padding-top: 20px;
 }
 
 /* footer */
@@ -362,7 +319,7 @@ footer {
     background: url(../images/pexels-photo-5908251.jpeg);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
 }
 
 .signup-form {
@@ -392,5 +349,17 @@ footer {
     border-radius: 2px;
 }
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #313131;
+}
+
+.join-button {
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgb(160, 167, 162);
+    color: #fafafa;
+    display: block;
 }
