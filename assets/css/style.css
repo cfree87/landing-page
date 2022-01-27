@@ -208,6 +208,25 @@ hr {
     padding-top: 20px;
 }
 
+#purchase {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 180%;
+    padding-top: 20px;
+    margin: -600px;
+}
+
+#spindye {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+}
+
 /* footer */
 
 footer {
