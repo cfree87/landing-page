@@ -149,6 +149,7 @@ h1, h2 {
     background-color: none;
     color: black;
     font-weight: bold;
+    font-size: 20px;
 }
 
 #center-about {
@@ -318,11 +319,18 @@ footer {
         text-align: center;
     }
     
-    .left-about-heading p, .right-about-heading p {
+    .left-about-heading p, {
         text-align: center;
         padding: 0 20px;
 
   }
+
+  .right-about-heading p  {
+    text-align: center;
+    padding: 0 20px;
+    font-size: large;
+  }
+  ]
 
   #photos {
       column-count: 3;
