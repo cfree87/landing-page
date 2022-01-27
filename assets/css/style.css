@@ -246,7 +246,7 @@ hr {
 #youtube {
     padding-top: 25%;
     position: absolute;
-    padding-left: 0%;
+    padding-left: 30%;
 }
 
 /* media queries */
@@ -308,7 +308,7 @@ footer {
 }
 
 .signup-form {
-    margin: 100px 10% 0 0;
+    margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(80, 79, 79, 0.6);
     max-width: 500px;
