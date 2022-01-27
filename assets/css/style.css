@@ -290,7 +290,26 @@ hr {
     #image2 {
         display: none;
     }
-}
+    
+    .form-section {
+        clear: left;
+        background: url(../images/pexels-photo-5908251.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+    }
+    
+    .signup-form {
+        margin: 150px 10% 0 0;
+        color: #fff;
+        background-color: rgba(80, 79, 79, 0.6);
+        max-width: 500px;
+        position: relative; 
+        left: 30%;
+        padding: 30px;
+        
+    }
+]
 /* footer */
 
 footer {
