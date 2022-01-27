@@ -22,7 +22,7 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: black;
 }
 
 #logo {
@@ -108,7 +108,7 @@ h1, h2 {
     left: 0;
     width: 47%;
     height: 390px;
-    background-color: black;
+    background-color: rgb(87, 85, 85);
     opacity: 0.6;
  }
 /* creates level of zoom for hero image */
@@ -216,21 +216,32 @@ hr {
     margin: -600px;
 }
 
-#spindye {
-    width: 100%;
+#company {
+    width: 90%;
     text-align: center;
-    line-height: 20px;
+    line-height: 60px;
     clear: both;
-    margin-bottom: 50px;
     color: black;
     font-weight: bolder;
     position: absolute;
 }
 
+#club-ethos a {
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+    clear: both;
+    margin: 132px;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+    padding: 0px;
+}
+
 /* footer */
 
 footer {
-    height: 10px;
+    height: 30px;
 }
 
 /* media queries */
@@ -375,4 +386,25 @@ footer {
     background-color: rgb(160, 167, 162);
     color: #fafafa;
     display: block;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 0%;
+    padding: 5%;
+    color: #3a3a3a
 }
