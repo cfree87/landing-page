@@ -13,7 +13,6 @@ body {
     background-image: url(../images/pexels-photo-1487713.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: transparent;
 }
 
 /* headings and logo */
@@ -78,7 +77,7 @@ h1, h2 {
     width: 100%;
     background: url(../images/pexels-photo-1937336.jpeg) no-repeat;
     opacity: 0.5;
-    position: center;
+    position: relative;
     background-size: cover;
 
 
@@ -137,7 +136,6 @@ h1, h2 {
     padding-top: 30px;
     width: 100%;
     float: left;
-    background-color: none;
     color: black;
     font-weight: bold;
 }
@@ -146,7 +144,6 @@ h1, h2 {
     padding-top: 0px;
     width: 33%;
     float: right;
-    background-color: none;
     color: black;
     font-weight: bold;
     font-size: 20px;
@@ -154,8 +151,7 @@ h1, h2 {
 
 #center-about {
     width: 33%;
-    margin: -690 auto;
-    background-color: none;
+    margin: -690px auto;
     color: black;
     font-weight: bold;
 }
