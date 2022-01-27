@@ -98,7 +98,8 @@ h1, h2 {
     opacity: 2.0;
     padding-left: 68px;
     padding-bottom: 90px;
-    margin-top: 213px
+    margin-top: 213px;
+    z-index: 0;
 
 }
 
@@ -388,6 +389,14 @@ footer {
     display: block;
 }
 
+/* video */
+
+#youtube {
+    padding-top: 25%;
+    position: absolute;
+    padding-left: 30%;
+}
+
 /* footer */
 
 footer {
@@ -408,3 +417,4 @@ footer {
     padding: 5%;
     color: #3a3a3a
 }
+
