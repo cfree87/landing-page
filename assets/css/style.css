@@ -306,10 +306,13 @@ hr {
         max-width: 500px;
         position: relative; 
         left: 30%;
-        padding: 30px;
-        
+        padding: 30px;  
     }
-]
+
+    #logo {
+        padding: 0;
+    }
+}
 /* footer */
 
 footer {
