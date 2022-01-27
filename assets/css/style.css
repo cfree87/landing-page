@@ -263,6 +263,18 @@ hr {
     #image2 {
         display: none;
     }
+
+    #logo {
+        padding: 0;
+    }
+    
+    #hero-outer {
+        height: 1000px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+      
+    }
 }
 
 /* for medium screens size from 950px wide and down */
@@ -277,6 +289,17 @@ hr {
     #image2 {
         display: none;
     }
+   
+    #logo {
+        padding: 0;
+    }
+
+    #hero-outer {
+        height: 1000px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+      }
 }
 /* for small screens size from 800px and down */
 
@@ -312,7 +335,15 @@ hr {
     #logo {
         padding: 0;
     }
+
+    #hero-outer {
+        height: 1000px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+      }
 }
+
 /* footer */
 
 footer {
