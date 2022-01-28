@@ -4,5 +4,4 @@ For my project I wanted to create a site that is easily found when searching for
 
 In exploring the site the visitor should learn a bit about sustainable materials, companies to purchase from, and be provided with an educational video. The site also includes a form to sign up for a fictional newsletter in which I imagine a hypothetical monthly newsletter with relavant information. 
 
-![My Image](images/screenshot1.png)
-![My Image](../images/screenshot1.png)
+<img src="../images/screenshot1.png">
