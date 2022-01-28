@@ -60,6 +60,12 @@ Testing using developer tools shows that information is still cohesive, readable
     CSS
         No errors were found when passing through the official (Jigsaw) validator
 
+BUGS:
+closer.html loads from gitpod server as the image below, but when I load it from the github pages site it does not relfelct the same #company style as in my style.css file. pictures below
+
+<img src="/assets/images/screenshot4.png" alt="Alt text" title="Optional title">
+<img src="/assets/images/screenshot5.png" alt="Alt text" title="Optional title">
+
 Deployment
 
     The site was deployed to GitHub pages. The steps to deploy are as follows:
