@@ -234,6 +234,7 @@ hr {
     font-weight: bolder;
     position: relative;
     padding: 0px;
+    z-index: 1;
 }
 
 
