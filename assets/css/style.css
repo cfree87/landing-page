@@ -215,13 +215,16 @@ hr {
 }
 
 #company {
-    width: 90%;
+    width: 100%;
     text-align: center;
-    line-height: 60px;
+    line-height: 33px;
     clear: both;
     color: black;
     font-weight: bolder;
-    position: absolute;
+    position: relative;
+    background-position: center;
+    margin: -53px;
+    height: 108px;
 }
 
 #club-ethos a {
