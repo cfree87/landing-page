@@ -76,13 +76,11 @@ Structures and code borrowed from Love Running repository/assignment and modifie
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 Content
 
-    The text for the Home page was taken from Wikipedia Article A
-    Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-    The icons in the footer were taken from Font Awesome
+    The text for the Home page was taken from https://www.forbes.com/sites/ellevate/2019/10/07/why-sustainable-fashion-matters/?sh=2c84c73171b8
+    
 
 Media
 
-    The photos used on the home and sign up page are from This Open Source site
-    The images used for the gallery page were taken from this other open source site
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+The photos used are from Pexels
+Video is from Youtube
+and links sourced from individual company websites.   
