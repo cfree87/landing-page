@@ -138,6 +138,7 @@ h1, h2 {
     float: left;
     color: black;
     font-weight: bold;
+    z-index: 1;
 }
 
 #right-about {
