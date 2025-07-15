@@ -5,7 +5,7 @@
 ---
 
 ## 🌐 Live Site  
-[Visit the Website](https://csfree87.github.io/portoflio1/)
+[Visit the Website](https://cfree87.github.io/landing-page/)
 
 ---
 
